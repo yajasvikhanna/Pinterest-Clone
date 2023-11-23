@@ -21,8 +21,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: rgb(1, 17, 13);
-}
+  background: rgb(255, 0, 0);
+} */
 
 /* Content-1:Start */
 .box {
@@ -31,11 +31,12 @@ body {
   border-radius: 20px;
   padding: 10px;
   text-align: center;
-  background: #ffffff;
+  background: #ba0505;
 }
 
 .box1 {
   margin-top: 10px;
+  background-color: #e09449;
 }
 
 .content {
@@ -137,11 +138,11 @@ button.message:hover {
   transition: 0.5s;
   background: rgba(88, 164, 151, 0.5);
 }
-/* Content-1:End */
+/* //Content-1:End */
 
 
-/* Responsiveness:Start */
-@media screen and (max-width: 480px) {
+/* //Responsiveness:Start */
+ @media screen and (max-width: 480px) {
     .box{
         width: 100vw;
         border-radius: 0px;
@@ -157,4 +158,3 @@ button.message:hover {
         margin-top: 10px;
     }
 }
-/* Responsiveness:End */
